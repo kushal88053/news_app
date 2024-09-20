@@ -92,6 +92,9 @@ app.get("/top-headlines", async (req, res) => {
 
 app.get("/country/:iso", async (req, res) => {});
 
+app.get("/", async (req, res) => {
+  res.status(200).json({ message: "Health check" });
+});
 app.listen(PORT, () => {
   console.log("Server running on port", PORT);
 });
