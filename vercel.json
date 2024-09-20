@@ -20,7 +20,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/news_site/$1"
+      "dest": "/news_site/index.html"
     }
   ]
 }
