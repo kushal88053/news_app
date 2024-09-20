@@ -20,7 +20,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/frontend/$1"
+      "dest": "/news_site/$1"
     }
   ]
 }
