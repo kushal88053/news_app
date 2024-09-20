@@ -92,4 +92,8 @@ router.get("/country/:iso", async (req, res) => {
   await fetchNews(url, res);
 });
 
+router.get("/health", async (req, res) => {
+  res.status.json({ message: "health is ok" });
+});
+
 module.exports = router;
